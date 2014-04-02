@@ -11,7 +11,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/stylesheet.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -19,8 +22,135 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+<!-- Add your site or application content here -->
+<div class="row">
+    <div class="large-12 columns headbar"></div>
+</div>
+
+<div class="row">
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area large-offset-1">
+            <li class="name">
+                <h1><a href="#"><img src="img/logo.png" height="130" width="241" alt="logo" class="sitelogo"></a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon">
+                <a href="#">Menu</a>
+            </li>
+        </ul>
+
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+                <li class="has-dropdown">
+                    <a href="#">HOME</a>
+                    <ul class="dropdown">
+                        <li><a href="#">FISH</a></li>
+                        <li><a href="#">CHICKEN</a></li>
+                        <li><a href="#">BEEF</a></li>
+                        <li><a href="#">LAMB</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">BREAKFAST</a>
+                    <ul class="dropdown">
+                        <li><a href="#">FISH</a></li>
+                        <li><a href="#">CHICKEN</a></li>
+                        <li><a href="#">BEEF</a></li>
+                        <li><a href="#">LAMB</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">LUNCH</a>
+                    <ul class="dropdown">
+                        <li><a href="#">FISH</a></li>
+                        <li><a href="#">CHICKEN</a></li>
+                        <li><a href="#">BEEF</a></li>
+                        <li><a href="#">LAMB</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">DINNER</a>
+                    <ul class="dropdown">
+                        <li><a href="#">FISH</a></li>
+                        <li><a href="#">CHICKEN</a></li>
+                        <li><a href="#">BEEF</a></li>
+                        <li><a href="#">LAMB</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">COMPETITIONS</a>
+                    <ul class="dropdown">
+                        <li><a href="#">FISH</a></li>
+                        <li><a href="#">CHICKEN</a></li>
+                        <li><a href="#">BEEF</a></li>
+                        <li><a href="#">LAMB</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </nav>
+</div>  
+<div class="row imageholder">
+    <div class="large-10 large-offset-1 columns">
+        <img src="img/pasta2.jpg" height="auto" width="614%" alt="Primary recipe" class="mainimage">
+    </div>
+</div>
+<div class="row secondsection">
+    <div class="large-8 large-centered columns">
+        <div class="row innersection">
+
+            <div class="large-7 columns">
+                <img src="img/bocconcini.jpg" height="auto" width="100%" alt="">
+            </div>
+
+            <div class="large-5 columns">
+                <div class="row">
+                    <div class="large-6 columns">
+                        <img src="img/pasta4.jpg" height="auto" width="100%" alt="food img" class="thumbnailimg">
+                    </div>
+                    <div class="large-6 columns">
+                        <img src="img/pasta3.jpg" height="auto" width="100%" alt="food img" class="thumbnailimg">
+                    </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <hr class="redhr">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <span id="baskersub">
+                            Recipes
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-12 columns margintop9">
+                        <span id="baskersub2">
+                            Tomato Bocconcini Pasta
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-12 columns margintop9">
+                        <p class="pclasshome">Tomato bocconcini pasta will keep you warm in the cooler months, and it's ready in a flash!</p>
+                    </div> 
+                </div>
+                <div class="row">
+                    <a href="#">
+                        <div class="large-7 columns redblock">
+                            VIEW RECIPE <i class="fa fa-arrow-circle-o-right green"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+        
+<!-- Left Nav Section -->
+      
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
@@ -29,7 +159,10 @@
 
         <script src="js/vendor/foundation/foundation.js"></script>
         <!-- Link other foundation js modules here as required.... -->
-
+        <script src="js/vendor/foundation/foundation.topbar.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

@@ -1,0 +1,103 @@
+@import 'normalize', 'main', 'foundation';
+
+$primary-red: #b00004;
+$primary-green: #629200;
+
+.sitelogo {
+     position: relative;
+     top: -40px;
+     z-index: 2;
+}
+
+.top-bar {
+     background: $primary-green;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+     background: $primary-green;
+     color: $primary-red;
+     font-family: 'Lato', sans-serif;
+     font-weight: 700;
+     font-size: 14px;
+}
+
+.row {
+     .mainimage {
+          margin: 20px 0 40px;
+     }
+     .headbar {
+          background: $primary-red;
+          height: 100px;
+     }
+}
+
+.imageholder {
+     background: $primary-red;
+}
+
+ul.right {
+     margin-right: 60px;
+}
+
+.secondsection {
+     padding: 50px 0;
+}
+
+.innersection {
+     padding: 8px 0;
+     background: rgba($primary-green, 0.3);
+}
+
+.thumbnailimg {
+     padding: 3px;
+     border: 1px solid white;
+}
+
+.redhr {
+     border: 0;
+     margin-left: 10px;
+     margin-bottom: 12px;
+     margin-top: 5px;
+    height: 1px;
+    background: $primary-red;
+    background-image: -webkit-linear-gradient(left, $primary-red, $primary-red, $primary-red); 
+    background-image:    -moz-linear-gradient(left, $primary-red, $primary-red, $primary-red); 
+    background-image:     -ms-linear-gradient(left, $primary-red, $primary-red, $primary-red); 
+    background-image:      -o-linear-gradient(left, $primary-red, $primary-red, $primary-red); 
+}
+
+#baskersub {
+     font-family: 'Libre Baskerville', serif;
+     font-style: italic;
+     font-size: 15px;
+     color: $primary-red;
+}
+
+#baskersub2 {
+     font-family: 'Libre Baskerville', serif;
+     font-size: 19px;
+}
+
+.margintop9 {
+     margin-top: 9px;
+}
+
+.pclasshome {
+     font-size: 13px;
+     margin-bottom: 9px;
+}
+
+.redblock {
+     font-weight: 300;
+     color: white;
+     background: $primary-red;
+     padding: 8px 0 8px 25px;
+     font-size: 14px;
+}
+
+.green {
+     color: $primary-green;
+
+     padding-left: 25px;
+}
+
