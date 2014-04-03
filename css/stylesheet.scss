@@ -25,10 +25,11 @@ $primary-green: #629200;
      .mainimage {
           margin: 20px 0 40px;
      }
-     .headbar {
-          background: $primary-red;
-          height: 100px;
-     }
+}
+
+.headbar {
+    background: $primary-red;
+    margin-bottom: -40px;
 }
 
 .imageholder {
@@ -36,7 +37,7 @@ $primary-green: #629200;
 }
 
 ul.right {
-     margin-right: 60px;
+     margin-right: 90px;
 }
 
 .secondsection {
@@ -46,6 +47,10 @@ ul.right {
 .innersection {
      padding: 8px 0;
      background: rgba($primary-green, 0.3);
+}
+
+.leftmenublock {
+     background: rgba($primary-red, 0.3);
 }
 
 .thumbnailimg {
@@ -60,10 +65,15 @@ ul.right {
      margin-top: 5px;
     height: 1px;
     background: $primary-red;
-    background-image: -webkit-linear-gradient(left, $primary-red, $primary-red, $primary-red); 
-    background-image:    -moz-linear-gradient(left, $primary-red, $primary-red, $primary-red); 
-    background-image:     -ms-linear-gradient(left, $primary-red, $primary-red, $primary-red); 
-    background-image:      -o-linear-gradient(left, $primary-red, $primary-red, $primary-red); 
+}
+
+.redhr2 {
+     border: 0;
+     margin-left: 32px;
+     margin-bottom: 12px;
+     margin-top: 5px;
+    height: 1px;
+    background: $primary-red;
 }
 
 #baskersub {
@@ -78,8 +88,21 @@ ul.right {
      font-size: 19px;
 }
 
+.alsolike {
+    font-family: 'Libre Baskerville', serif;
+     font-size: 13px;
+     text-align: center;
+     color: $primary-red;
+     padding-bottom: 14px;
+}
+
 .margintop9 {
      margin-top: 9px;
+}
+
+.margintop99 {
+     margin-top: 9px;
+     padding-left: 0px;
 }
 
 .pclasshome {
@@ -100,4 +123,133 @@ ul.right {
 
      padding-left: 25px;
 }
+
+.greenn {
+    color: $primary-green;
+}
+
+.greenn:hover {
+    color: $primary-green;
+    background: $primary-red;
+}
+
+.greennn {
+    color: $primary-green;
+}
+
+.ovalg1 {
+    width: 150px;
+    height: 100px;
+    background: $primary-green;
+    -moz-border-radius: 75px / 50px;
+    -webkit-border-radius: 75px / 50px;
+    border-radius: 75px / 50px;
+    color: white;
+    text-align: center;
+    float: right;
+    line-height: 100px;
+}
+
+.ovalr2 {
+    width: 150px;
+    height: 100px;
+    background: $primary-red;
+    -moz-border-radius: 75px / 50px;
+    -webkit-border-radius: 75px / 50px;
+    border-radius: 75px / 50px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+.ovalr22 {
+    width: 150px;
+    height: 100px;
+    background: $primary-red;
+    -moz-border-radius: 75px / 50px;
+    -webkit-border-radius: 75px / 50px;
+    border-radius: 75px / 50px;
+    color: white;
+    margin: -13px auto 0;
+    text-align: center;
+    line-height: 100px;
+}
+
+.ovalg3 {
+    width: 150px;
+    height: 100px;
+    background: $primary-green;
+    -moz-border-radius: 75px / 50px;
+    -webkit-border-radius: 75px / 50px;
+    border-radius: 75px / 50px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.padtop10 {
+    padding: 10px 0;
+}
+
+.padtop30 {
+    padding: 70px 0 10px;
+}
+
+.padbot30 {
+    margin: 0 0 10px;
+}
+
+.hiddenn {
+    visibility:hidden;
+}
+
+.tac {
+    text-align: center;
+}
+
+.posrel {
+    position: relative;
+    top: 50px;
+}
+
+.slidehead {
+    color: $primary-red;
+    font-size: 28px;
+    border-bottom: 2px solid $primary-red;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+}
+
+.sizedd {
+    padding-top: 11px;
+}
+
+.smallbox {
+    border: 1px solid $primary-green;
+    padding: 4px;
+}
+
+.smallsub {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+}
+
+.viewrecipe {
+    background: $primary-green;
+    color: white;
+    font-size: 14px;
+    padding: 0 4px;
+    display: inline-block;
+}
+
+.orbitheight {
+    height: 200px;
+}
+
+
+
+
+
+
 
