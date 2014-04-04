@@ -30,6 +30,7 @@ $primary-green: #629200;
 .headbar {
     background: $primary-red;
     margin-bottom: -40px;
+    padding-top: 20px;
 }
 
 .imageholder {
@@ -44,13 +45,17 @@ ul.right {
      padding: 50px 0;
 }
 
+.secondsection2 {
+     padding: 0px 0;
+}
+
 .innersection {
      padding: 8px 0;
      background: rgba($primary-green, 0.3);
 }
 
 .leftmenublock {
-     background: rgba($primary-red, 0.3);
+     background: rgba($primary-red, 0.2);
 }
 
 .thumbnailimg {
@@ -88,12 +93,26 @@ ul.right {
      font-size: 19px;
 }
 
+#baskersub3 {
+     font-family: 'Libre Baskerville', serif;
+     font-size: 23px;
+}
+
 .alsolike {
     font-family: 'Libre Baskerville', serif;
      font-size: 13px;
      text-align: center;
      color: $primary-red;
      padding-bottom: 14px;
+}
+
+.alsolike2 {
+    font-family: 'Libre Baskerville', serif;
+     font-size: 19px;
+     text-align: center;
+     color: $primary-red;
+     padding-bottom: 14px;
+     letter-spacing: 2px;
 }
 
 .margintop9 {
@@ -105,9 +124,19 @@ ul.right {
      padding-left: 0px;
 }
 
+.margintop999 {
+     margin-top: 33px;
+     padding-left: 0px;
+}
+
 .pclasshome {
      font-size: 13px;
      margin-bottom: 9px;
+}
+
+.pclasshome2 {
+     font-size: 17px;
+     margin-bottom: 4px;
 }
 
 .redblock {
@@ -120,7 +149,6 @@ ul.right {
 
 .green {
      color: $primary-green;
-
      padding-left: 25px;
 }
 
@@ -227,7 +255,7 @@ ul.right {
 
 .smallbox {
     border: 1px solid $primary-green;
-    padding: 4px;
+    padding: 8px;
 }
 
 .smallsub {
@@ -243,12 +271,194 @@ ul.right {
     display: inline-block;
 }
 
+.viewrecipe2 {
+    background: $primary-green;
+    color: white;
+    font-size: 14px;
+    padding: 3px 4px;
+    display: inline-block;
+}
+
 .orbitheight {
     height: 200px;
 }
 
+.botbar {
+    background: $primary-red;
+    height: 35px;
+    margin-top: 100px;
+}
 
+.whiteborder {
+    padding: 12px;
+    border: 1px solid #eee;
+}
 
+.raterecipe {
+    background: $primary-green;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    height: 40px;
+    line-height: 40px;
+}
+
+.starslarge {
+
+}
+
+.iconpallet {
+    font-size: 33px;
+    color: #444;
+    leading: 60px;
+}
+
+a {
+    color: #444;
+}
+
+.fa {
+    padding-left: 26px;
+}
+
+.fa:hover {
+    color: #666;
+}
+
+.prepbox {
+    border-top: 2px $primary-green solid;
+    border-bottom: 2px $primary-green solid;
+    height: 33px;
+}
+
+.smalltitle {
+    font-size: 13px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 3px;
+}
+
+.value {
+    font-size: 16px;
+    color: $primary-green;
+    padding-left: 16px;
+    line-height: 33px;
+    position: relative;
+    bottom: 3px;
+}
+
+.rightf {
+    float: right;
+    line-height: 33px;
+}
+
+.prepsec {
+    margin-top: 40px;
+}
+
+.ingred {
+    color: $primary-red;
+    font-size: 29px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.step {
+    color: $primary-red;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.nopadplox {
+    padding-left: 2px;
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+}
+
+.noarginbotplox {
+    margin-bottom: 5px;
+}
+
+.nopadplox:hover {
+    color: #eee;
+}
+
+.borderwhitepls {
+    border: 1px solid white;
+    padding: 2px;
+}
+
+input[type="text"].searchbarr {
+    margin-bottom:0;
+}
+
+.button.searchbarr {
+    margin-bottom: 0;
+}
+
+.padbotploxxx {
+    margin-bottom: 20px;
+}
+
+.margintopbit {
+    margin-top: 20px;
+}
+
+.paddingtopbit {
+    padding-top: 20px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.rating2 {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > *:hover,
+.rating > *:hover ~ span,
+.rating:not(:hover) > input:checked ~ span {
+  color: transparent;
+}
+.rating > *:hover:before,
+.rating > *:hover ~ span:before,
+.rating:not(:hover) > input:checked ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: $primary-green;
+}
+
+.rating > input {
+   margin-left:-1.1em;
+   margin-right:0;
+   top:3px;
+   width:1.1em;
+   height:1.1em;
+   position:relative;
+   z-index:2;
+   opacity:0;
+}
+
+.row .row .negativemarg {
+    margin-top: -20px;
+}
 
 
 
